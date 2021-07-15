@@ -1,0 +1,33 @@
+/* FOOTER */
+.footer {
+  padding: 2rem 3rem;
+  background-color: var(--color-tertiary-lighter);
+
+  &__nav {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+  }
+
+  &__item {
+    margin-right: 4rem;
+  }
+
+  &__link {
+    color: #eee;
+    text-decoration: none;
+  }
+
+  &__logo {
+    height: 6rem;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+  }
+
+  &__copyright {
+    color: black;
+    text-align: center;
+  }
+}

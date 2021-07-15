@@ -1,0 +1,29 @@
+.btn {
+  display: inline-block;
+  background-color: var(--color-primary);
+  border: none;
+  padding: 2.25rem 4.5rem;
+  border-radius: 10rem;
+  cursor: pointer;
+  transition: all 0.3s;
+  color: white;
+
+  @include respond(phone) {
+    padding: 2.55rem 5rem;
+  }
+
+  &--text {
+    display: inline-block;
+    background: none;
+    color: var(--color-primary);
+    border: none;
+    border-bottom: 1px solid currentColor;
+    padding-bottom: 2px;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+
+  &:hover {
+    background-color: var(--color-primary-darker);
+  }
+}
