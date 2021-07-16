@@ -76,3 +76,10 @@ imgTargets.forEach(img => imgObserver.observe(img));
 function closeNav() {
   document.getElementById('navi-toggle').checked = false;
 }
+
+//////////////////////////////////////////////
+//// Mobile AoutoPlay:
+
+var mobilevideo = document.getElementsByTagName('video')[0];
+mobilevideo.setAttribute('playsinline', '');
+mobilevideo.setAttribute('muted', '');
