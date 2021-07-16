@@ -519,7 +519,7 @@ p {
     @media only screen and (max-width: 37.5em) {
       .operations__icon {
         margin-top: 2rem;
-        margin-left: 10rem; } }
+        margin-left: 8rem; } }
   .operations__icon svg {
     height: 2.75rem;
     width: 2.75rem; }
@@ -570,7 +570,7 @@ p {
     margin-bottom: 2rem; }
     @media only screen and (max-width: 37.5em) {
       .features__icon {
-        margin-left: 45%; } }
+        margin-left: 35%; } }
   .features__icon svg {
     height: 2.5rem;
     width: 2.5rem;
