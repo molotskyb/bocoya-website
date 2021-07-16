@@ -33,6 +33,7 @@ p {
 
   @include respond(phone) {
     margin-bottom: 6rem;
+    // margin-top: -6rem;
   }
 }
 

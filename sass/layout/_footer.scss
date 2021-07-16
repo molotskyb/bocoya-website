@@ -12,6 +12,9 @@
 
   &__item {
     margin-right: 4rem;
+    @include respond(phone) {
+      margin-right: 2rem;
+    }
   }
 
   &__link {

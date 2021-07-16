@@ -9,6 +9,7 @@ const nav = document.querySelector('.nav');
 //// Tabbed Component:
 
 tabsContainer.addEventListener('click', function (e) {
+  e.preventDefault();
   const clicked = e.target.closest('.operations__tab');
 
   // Guard clause:

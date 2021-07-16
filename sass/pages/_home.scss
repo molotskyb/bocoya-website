@@ -42,7 +42,7 @@
     transform: translateY(-50%);
 
     @include respond(phone) {
-      margin-right: 2rem;
+      margin-right: 1rem;
       transform: translateY(-60%);
     }
 
@@ -68,7 +68,7 @@
 
     &--3 {
       background-color: var(--color-tertiary-darker);
-      margin: 0;
+      // margin: 0;
     }
 
     &--3:hover {
@@ -93,6 +93,13 @@
       grid-template-columns: 7rem 1fr;
       column-gap: 3rem;
       row-gap: 0.5rem;
+
+      @include respond(phone) {
+        grid-template-columns: 0rem 1fr;
+        grid-template-rows: 30rem 1fr;
+        column-gap: 0.5rem;
+        row-gap: 0;
+      }
     }
   }
 
@@ -150,7 +157,7 @@
   margin: 0 12rem;
 
   @include respond(phone) {
-    // grid-template-columns: 1fr;
+    grid-template-columns: 1fr;
     gap: 1rem;
     margin: 0 0;
   }
@@ -159,9 +166,9 @@
     width: 100%;
     filter: contrast(70%);
 
-    // @include respond(phone) {
-    //   width: 0%; // Disable the photos
-    // }
+    @include respond(phone) {
+      width: 0%; // Disable the photos
+    }
   }
 
   &__feature {
