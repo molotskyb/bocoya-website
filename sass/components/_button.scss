@@ -9,8 +9,8 @@
   color: white;
 
   @include respond(phone) {
-    padding: 1.55rem 1rem;
-    // border-radius: -50%;
+    padding: 3rem 1rem;
+    border-radius: 20%;
   }
 
   &--text {

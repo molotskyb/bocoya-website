@@ -80,6 +80,6 @@ function closeNav() {
 //////////////////////////////////////////////
 //// Mobile AoutoPlay:
 
-var mobilevideo = document.getElementsByTagName('video')[0];
+const mobilevideo = document.getElementsByTagName('video')[0];
 mobilevideo.setAttribute('playsinline', '');
 mobilevideo.setAttribute('muted', '');

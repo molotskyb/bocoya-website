@@ -17,6 +17,7 @@
     @include respond(phone) {
       display: flex;
       justify-content: center;
+      margin-bottom: 4rem;
     }
   }
   &__header {
@@ -37,8 +38,14 @@
   margin: 12rem auto 0 auto;
   background-color: #fff;
 
+  &__p--2 {
+    @include respond(phone) {
+      margin-top: -2rem;
+    }
+  }
+
   &__tab {
-    margin-right: 6.5rem;
+    margin-right: 4.5rem;
     transform: translateY(-50%);
 
     @include respond(phone) {
@@ -49,6 +56,12 @@
     &-container {
       display: flex;
       justify-content: center;
+      margin-right: -2rem;
+
+      @include respond(phone) {
+        margin-top: -1rem;
+        margin-right: -3rem;
+      }
     }
 
     &--1 {
@@ -68,7 +81,6 @@
 
     &--3 {
       background-color: var(--color-tertiary-darker);
-      // margin: 0;
     }
 
     &--3:hover {
@@ -80,10 +92,10 @@
     }
   }
 
-  &__tab span {
-    margin-right: 1rem;
-    display: inline-block;
-  }
+  // &__tab span {
+  //   margin-right: 11rem;
+  //   display: inline-block;
+  // }
 
   &__content {
     display: none;
@@ -105,6 +117,10 @@
 
   &__header {
     align-self: center;
+    @include respond(phone) {
+      margin-top: 6rem;
+      // margin-bottom: -10rem;
+    }
   }
 
   &__icon {
@@ -114,6 +130,10 @@
     height: 7rem;
     width: 7rem;
     border-radius: 50%;
+    @include respond(phone) {
+      margin-top: 2rem;
+      margin-left: 10rem;
+    }
   }
 
   &__icon svg {
@@ -186,15 +206,30 @@
     width: 5.5rem;
     border-radius: 50%;
     margin-bottom: 2rem;
+
+    @include respond(phone) {
+      margin-left: 45%;
+    }
   }
 
   &__icon svg {
     height: 2.5rem;
     width: 2.5rem;
     fill: var(--color-secondary);
+
+    // @include respond(phone) {
+    //   margin-top: 6rem;
+    // }
   }
 
   &__header {
     margin-bottom: 1rem;
+
+    @include respond(phone) {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 4rem;
+      margin-top: 6rem;
+    }
   }
 }
