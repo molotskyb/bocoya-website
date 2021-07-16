@@ -195,9 +195,10 @@
 /* nav and stickly class at the same time */
 .nav.sticky {
   position: fixed;
-  margin: -3rem;
-  padding: 5rem;
-  height: 7.5rem;
+  // margin: -3rem;
+  // padding: 5rem;
+  margin-top: -3rem;
+  height: 10rem;
   background-color: var(--color-tertiary-lighter);
 
   @include respond(tab-port) {

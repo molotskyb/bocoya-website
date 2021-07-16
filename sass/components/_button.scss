@@ -9,7 +9,8 @@
   color: white;
 
   @include respond(phone) {
-    padding: 2.55rem 5rem;
+    padding: 1.55rem 1rem;
+    border-radius: 50%;
   }
 
   &--text {
@@ -17,8 +18,8 @@
     background: none;
     color: var(--color-primary);
     border: none;
-    border-bottom: 1px solid currentColor;
-    padding-bottom: 2px;
+    border-bottom: 0.5px solid currentColor;
+    padding-bottom: 4px;
     cursor: pointer;
     transition: all 0.3s;
   }

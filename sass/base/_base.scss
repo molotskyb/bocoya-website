@@ -20,9 +20,9 @@ html {
     font-size: 50%; // for to be 1rem = 8px, 8/16 = 50%
   }
 
-  @include respond(phone) {
-    font-size: 35%;
-  }
+  // @include respond(phone) {
+  //   font-size: 35%;
+  // }
 
   @include respond(big-desktop) {
     font-size: 75%; // for to be 1rem = 12px, 12/16 = 75%

@@ -38,8 +38,13 @@
   background-color: #fff;
 
   &__tab {
-    margin-right: 2.5rem;
+    margin-right: 6.5rem;
     transform: translateY(-50%);
+
+    @include respond(phone) {
+      margin-right: 2rem;
+      transform: translateY(-60%);
+    }
 
     &-container {
       display: flex;
